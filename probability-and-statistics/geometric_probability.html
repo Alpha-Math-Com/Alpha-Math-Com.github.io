@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-1851129821002193">
+    <Title>Alpha Math</Title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="Alpha Math png.ico">
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+<a id="topHeader" href="../index.html"><h1 id="AlphaMath">Alpha Math</h1></a>
+
+<h1>Geometric Probability Calculator</h1>
+<p>A geometric distribution represents the probability of the first time an event successfully happens afer x trials.</p>
+<p>p represents the probability of the event happening.</p>
+<p>x represents the amount of trials it took for the first success to occur.</p>
+<p class="red">Note: Be mindful of the definition of X. Some people consider the random variable X to represent the amount of trials BEFORE the first success.</p>
+<p class="red"></p>
+<input type="number" id="p"> = p
+<br>
+<br>
+<input type="number" id="x"> = x
+<br>
+<br>
+<button id="calculateButton">Calculate</button>
+
+<div class="OneLine">
+    <p id="probability_less_than_including">P(X ≤ x) =&nbsp</p>
+    <p id="p_lti_answer"></p>
+</div>
+
+
+<div class="OneLine">
+    <p id="probability_equal">P(X = x) =&nbsp</p>
+    <p id="p_e_answer"></p>
+</div>
+
+
+<script src="geometric_probability.js"></script>
+</body>
+
+
+</html>
